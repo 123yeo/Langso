@@ -1,0 +1,2738 @@
+:q<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- tailieu -->
+  <meta property="og:title" content=" Cẩm nang làng số">
+  <!-- <meta property="og:description" content="Mô tả ngắn về trang web"> -->
+  <!-- <meta property="og:image" content="https://dx.mic.gov.vn/uploads/fb-thumb.jpg"> -->
+  <!-- <meta property="og:url" content="URL_Trang_Web"> -->
+  <!-- <meta property="og:url" content="https://dx.mic.gov.vn/uploads/fb-thumb.jpg" /> -->
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+  <link rel="shortcut icon" href="../image/logotitle.png">
+  <title>Cẩm nang làng Số</title>
+
+  <script type="application/ld+json">
+{"datePublished":"2023-04-22T01:23:28+00:00","dateModified":"2023-04-22T01:23:28+00:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/chuyen-doi-so-la-gi/"},"url":"http://localhost:4000/docs/chuyen-doi-so-la-gi/","author":{"@type":"Person","name":"aiv"},"description":"Tóm tắt","headline":"Chuyển đổi số là gì?","@context":"https://schema.org"}</script>
+  <!-- End Jekyll SEO tag -->
+
+  <!-- <meta property="og:image" content="http://localhost:4000/uploads/"/>-->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Chuyển đổi số" href="/feed.xml">
+  <script src="./js/main.js"></script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="./css/flipbook.style.css">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <!-- image -->
+
+  <style>
+    .arrow-animation {
+      position: relative;
+      -webkit-animation: linear infinite alternate;
+      -webkit-animation-name: run;
+      -webkit-animation-duration: 1s;
+      animation: linear infinite alternate;
+      animation-name: run;
+      animation-duration: 2s
+    }
+
+    @keyframes run {
+      0% {
+        left: 0
+      }
+
+      50% {
+        left: 5px
+      }
+
+      100% {
+        left: 0
+      }
+    }
+  </style>
+  <style type="text/css">
+    #container {
+      position: relative;
+      width: 1200px;
+      height: 800px;
+    }
+
+    .myLink {
+      color: #00aa55 !important;
+    }
+
+    #toggleButton2 {
+      display: none;
+    }
+
+    @media only screen and (max-width:768px) {
+      .nav-i-detail {
+        top: 24px !important;
+      }
+
+      #container {
+        width: unset !important;
+        height: 600px;
+      }
+
+      #toggleButton2 {
+        display: block;
+      }
+
+      .container.clearfix.et_menu_container {
+        margin-bottom: 2px !important;
+        margin-top: 3px !important;
+      }
+
+      .mobile_menu_bar::before {
+
+        font-size: 22px !important;
+      }
+
+      .et_mobile_menu li a {
+        font-weight: normal;
+        color: #364c4f;
+        padding: 6px 3% !important;
+        font-size: 8px !important;
+        /* padding: 20px 25px; */
+      }
+    }
+
+
+    @media only screen and (max-width:600px) {
+      #container {
+        width: unset !important;
+        height: 100vh;
+      }
+
+
+    }
+
+    /* .uk-margin-large-top.paginate-post {
+      display: none;
+    } */
+  </style>
+
+  <script src="./js/flipbook.min.js"></script>
+  <script src="./js/iscroll.min.js"></script>
+  <script src="./js/pdf.min.js"></script>
+  <script src="./js/pdf.worker.min.js"></script>
+  <script src="./js/flipbook.pdfservice.min.js"></script>
+  <script src="./js/three.min.js"></script>
+  <script src="./js/flipbook.webgl.js"></script>
+
+  <!-- QUẬN TRANG -->
+
+  <!-- QUẬN TRANG END -->
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="content/global.css">
+  <script type="text/javascript" src="java/FWDSISC.js"></script>
+
+  <!-- Setup slider -->
+  <script type="text/javascript">
+    FWDSISCUtils.onReady(function () {
+      new FWDSISC({
+        //main settings
+        instanceName: "mySISC",
+        className: "",
+        displayType: "fluidwidth",
+        displayVertical: "no",
+        parentId: "myDiv",
+        mainFolderPath: "content",
+        skinPath: "minimal_skin_dark",
+        playlistId: "myPlaylist1",
+        rightClickContextMenu: "developer",
+        autoScale: "yes",
+        randomizeImages: "no",
+        addKeyboardSupport: "yes",
+        initializeOnlyWhenVisible: "yes",
+        paralax: 'no',
+        addDragSupport: "no",
+        zIndex: 30,
+        maxWidth: 1000,
+        maxHeight: 800,
+        startAtImage: 0,
+        buttonsHideDelay: 5,
+        howManyImagesToSkipOnNextAndPrevButtons: 1,
+        showZoomButton: "yes",
+        showFullscreenButton: "yes",
+        showNextAndPrevButtons: "yes",
+        showNextAndPrevButtonsOnMobile: "yes",
+        showCount: "yes",
+        showImageReflection: "no",
+        animationTextType: "fade",
+        transitionType: "expo",
+        showHTMLTextContent: "all",
+        HTMLTextPosition: "outside",
+        nextAndPrevButtonsPosition: "leftandright",
+        nextAndPrevButtonsHorizontalButtonsOffset: 20,
+        nextAndPrevButtonsVerticalButtonsOffset: 20,
+        sliderOffsetTopAndBottom: 0,
+        maxImageHeight: "300",
+        maxCenterImageHeight: "600",
+        spaceBetweenImages: 20,
+        imageBorderSize: 5,
+        defaulNrThumbsToDisplay: 3,
+        transitionDuration: .8,
+        overlayColor: "rgba(0, 0, 0, .5)",
+        imageBorderColor: "#FFF",
+        imageBackgroundColor: "#ffffff",
+        backgroundColor: "#000",
+        preloaderPosition: 'center',
+        showInfoHolder: 'yes',
+        infoHolderHeight: 40,
+        infoHolderHorizontalOffset: 20,
+        infoHolderVerticalOffset: 20,
+        infoHolderStartHorizontalSpace: 20,
+        infoHolderHorizontalSpaceBetweenItems: 10,
+        infoHolderBackgroundColor: 'rgba(0,0,0, .6)',
+        slideshowPreloaderPosition: 'bottomRight',
+        slideshowDelay: 5000,
+        slideshowRadius: 9,
+        slideshowBackgroundColor: "#a2a2a2",
+        slideshowFillColor: "#FFF",
+        slideshowStrokeSize: 2
+      });
+    });
+  </script>
+
+
+
+  <script>
+    function searchResults(form) {
+
+      var currentItem = null;
+      var search = document.getElementById(form);
+      var results = document.getElementById(form + "-results");
+      var toggle = document.getElementById(form + "-toggle");
+
+      function removeActive() {
+        for (i = 0; i < results.children.length; i++) {
+          results.children[i].classList.remove("uk-background-muted");
+        }
+      }
+
+      // Detect all clicks on the document
+      document.addEventListener("click", function (event) {
+
+        var isClickSearch = false;
+        var isClickResults = false;
+        var isClickSearchToggle = false;
+
+        if (search !== null) {
+          isClickSearch = search.contains(event.target);
+        }
+
+        if (results !== null) {
+          isClickResults = results.contains(event.target);
+        }
+
+        if (toggle !== null) {
+          isClickSearchToggle = toggle.contains(event.target);
+        }
+
+        if (isClickSearch || isClickSearchToggle) {
+          results.style.display = "block";
+        }
+
+        if (!isClickResults && !isClickSearch && !isClickSearchToggle) {
+          results.style.display = "none";
+        }
+
+      });
+
+      results.addEventListener("mouseover", function (event) {
+
+        removeActive();
+        event.target.parentElement.classList.add("uk-background-muted");
+        currentItem = null;
+
+      });
+
+      results.addEventListener("mouseout", function (event) {
+        event.target.parentElement.classList.remove("uk-background-muted");
+      });
+
+
+      search.addEventListener("keyup", function (event) {
+
+        var resultItems = results.children;
+        var resultCount = results.children.length;
+
+        if (event.keyCode === 40) {
+
+          if (currentItem < (resultCount - 1)) {
+            if (currentItem === null) {
+              currentItem = 0;
+            } else {
+              removeActive();
+              currentItem++;
+            }
+            removeActive();
+            resultItems[currentItem].classList.add("uk-background-muted");
+          }
+
+        } else if (event.keyCode === 38) {
+
+          if (currentItem > 0) {
+            if (currentItem === null) {
+              currentItem = 0;
+            } else {
+              removeActive();
+              currentItem--;
+            }
+            removeActive();
+            resultItems[currentItem].classList.add("uk-background-muted");
+          }
+
+        } else if (event.keyCode === 13) {
+
+          resultItems[currentItem].children[0].click();
+
+        }
+
+      });
+
+    }
+  </script>
+
+
+
+  <!-- Begin EMC Tracking Code -->
+  <script type="text/javascript">
+    var _govaq = window._govaq || [];
+    _govaq.push(['trackPageView']);
+    _govaq.push(['enableLinkTracking']);
+    (function () {
+      _govaq.push(['setTrackerUrl', 'https://f-emc.ngsp.gov.vn/tracking']);
+      _govaq.push(['setSiteId', '314']);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.defer = true;
+      g.src = 'https://f-emc.ngsp.gov.vn/embed/gov-tracking.min.js';
+      s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <!-- End EMC Tracking Code -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics 8422 -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-179014374-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179014374-1');
+  </script>
+  <!-- <script src="js/cdn.v2.min.js" data-chat-service="Salebot" data-bot-id="72cf94e9-9405-4dc6-bf2c-524f64dc8bf8"
+    data-chat-width="450px" data-chat-height="600px" data-bubble-color="#000000"></script> -->
+  <!-- scroll -->
+  <link rel="stylesheet" type="text/css" href="../icon-page-story/css/style.css">
+  <style>
+    :root {
+      --md-text-font: "Roboto";
+      --md-code-font: "Roboto Mono"
+    }
+  </style>
+  <style id='global-styles-inline-css' type='text/css'>
+    body {
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+      --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+      --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+      --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+      --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+      --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+      --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+      --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .et_mobile_menu li a {
+      border-bottom: 1px solid rgba(0, 0, 0, .03);
+      display: flex;
+      font-weight: normal;
+      color: #364c4f;
+      font-size: 24px;
+      /* height: 46px; */
+      align-items: center;
+      height: 37px !important;
+    }
+
+    .wp-site-blocks>.alignleft {
+      float: left;
+      margin-right: 2em;
+    }
+
+    .wp-site-blocks>.alignright {
+      float: right;
+      margin-left: 2em;
+    }
+
+    .wp-site-blocks>.aligncenter {
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+
+    .titleBottomConten {
+      color: #1a1a1a !important;
+    }
+
+    /* StyleCustom */
+
+    .textCenter {
+      border: 1px solid gray;
+      /* Màu xám cho đường viền */
+      margin: 0px 10px;
+      box-shadow: 0px 3px 4px rgba(128, 128, 128, 0.6);
+      /* Màu xám cho box-shadow */
+      border-radius: 40px;
+    }
+
+    .contenMain {
+      margin: 50px 150px 100px 150px;
+    }
+
+    .maineFooter {
+      text-align: center;
+      width: 1080px;
+      padding: 20px;
+      background-color: #00aa55;
+      position: relative;
+      z-index: 1;
+      top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .textContenhead1 {
+      color: #1a1a1a !important;
+    }
+
+    .titlefff {
+      color: fff !important;
+    }
+
+    @media (max-width: 980px) {
+      .contenMain {
+        margin: 0px !important;
+      }
+
+      .textHead {
+        top: 70px;
+        padding-bottom: 70px;
+      }
+
+      .footerBotom {
+        margin-top: 55px;
+      }
+
+      .textContenhead1 {
+        font-size: 12px !important;
+        padding: 0;
+      }
+
+      .textBottom {
+        display: none !important;
+      }
+
+      .maineFooter {
+        width: 300px;
+        height: 75px;
+
+      }
+
+      .texBottomNone {
+        display: none;
+      }
+
+      h4 {
+        padding: 0px;
+      }
+
+    }
+  </style>
+  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <style id='global-styles-inline-css' type='text/css'>
+    body {
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+      --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+      --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+      --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+      --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+      --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+      --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+      --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .wp-site-blocks>.alignleft {
+      float: left;
+      margin-right: 2em;
+    }
+
+    .wp-site-blocks>.alignright {
+      float: right;
+      margin-left: 2em;
+    }
+
+    .wp-site-blocks>.aligncenter {
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+
+    .arrow-animation svg {
+      fill: #00aa55;
+    }
+  </style>
+  <link rel="stylesheet" href="../dowloadPdf/css/main.85bb2934.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link rel="stylesheet" href="css/palette.a6bdf11c.min.css">
+  <link rel='stylesheet' id='creativ_carousel_styles-css'
+    href='/wp-content/plugins/cr3ativ-carousel/css/owl.carousel.css?ver=6.0.5' type='text/css' media='all' />
+  <link rel='stylesheet' id='et-builder-googlefonts-cached-css'
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&#038;subset=latin,latin-ext&#038;display=swap'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='divi-style-parent-css' href='../wp-content/themes/Divi/style-static.min.css?ver=4.17.6'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='divi-style-2-css' href='../wp-content/themes/Divi-child/assets/style.css?ver=1677633315'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='colorbox-css-css' href='../wp-content/themes/Divi-child/colorbox/colorbox.css?ver=6.0.5'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='lottie-css-css'
+    href='../wp-content/themes/Divi-child/assets/lottie-style-1550.css?ver=6.0.5' type='text/css' media='all' />
+  <link rel='stylesheet' id='module_font-css'
+    href='../wp-content/themes/Divi-child/fonts/modules/font-modules.css?ver=01' type='text/css' media='all' />
+  <link rel='stylesheet' id='open_sans-css' href='../wp-content/themes/Divi-child/fonts/open-sans/stylesheet.css?ver=01'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='slick_style-css'
+    href='/wp-content/themes/Divi-child/portfolio_carousel/slick/slick.css?ver=01' type='text/css' media='all' />
+  <link rel='stylesheet' id='gfp_product_style-css'
+    href='/wp-content/themes/Divi-child/portfolio_carousel/portfolio_carousel.css?ver=03' type='text/css' media='all' />
+  <link rel='stylesheet' id='select2_css-css'
+    href='/wp-content/themes/Divi-child/includes/use_cases/select2/css/select2.min.css?ver=03' type='text/css'
+    media='all' />
+  <link rel='stylesheet' id='op_use_cases_css-css'
+    href='/wp-content/themes/Divi-child/includes/use_cases/index.css?ver=1677634130' type='text/css' media='all' />
+  <link rel='stylesheet' id='op_other_customer_css-css'
+    href='/wp-content/themes/Divi-child/includes/other_customer/index.css?ver=1677634219' type='text/css' media='all' />
+  <script type='text/javascript' src='/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+
+
+  <script type='text/javascript' src='/wp-content/plugins/cr3ativ-carousel/js/owl.carousel.js?ver=6.0.5'
+    id='creativ_carousel_js-js'></script>
+  <script type='text/javascript' src='/wp-content/plugins/cr3ativ-carousel/js/owl.script.js?ver=6.0.5'
+    id='creativ_carousel_script-js'></script>
+
+  <script type='text/javascript' src='/wp-content/themes/Divi-child/js/colorbox.js?ver=6.0.5'
+    id='colorbox-js-js'></script>
+  <script type='text/javascript' src='/wp-content/themes/Divi-child/js/lottie.js?ver=6.0.5' id='lottie-js-js'></script>
+  <script type='text/javascript' src='/wp-content/themes/Divi-child/js/archive-categories.js?ver=6.0.5'
+    id='archive-categories-js-js'></script>
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
+  <link rel="stylesheet" href="../dowloadPdf/css/extra.css">
+  <!-- link include -->
+  <script src="https://unpkg.com/htmlincludejs"></script>
+  <!-- style <p> -->
+  <style>
+    .indented-p {
+      margin-left: 3em;
+      color: #555;
+      /* Lùi vào bằng 3em cho các thẻ có lớp .indented-p */
+    }
+
+    p {
+      margin-left: 0;
+      /* Đặt lề trái và phải thành 0 */
+    }
+
+    .indented-p-5 {
+      margin-left: 5em;
+      color: #555;
+      /* Lùi vào bằng 3em cho các thẻ có lớp .indented-p */
+    }
+
+    .indented-p-w {
+      margin-left: 3em;
+      font-weight: bold;
+    }
+
+    .indented-p-w0 {
+      font-weight: bold;
+    }
+
+    .italic-p {
+      margin-left: 3em;
+      /* Lùi vào bằng 3em cho các thẻ có lớp .italic-p */
+      font-style: italic;
+      /* Đặt font style là italic cho nội dung trong thẻ p */
+    }
+  </style>
+  <style>
+    /* css fixd */
+    .fixed-element {
+      /* position: fixed; */
+      top: 78px;
+      transition: all 0.7s;
+      /* Thêm hiệu ứng chuyển đổi */
+      opacity: 1;
+    }
+
+
+
+    .threshold-element {
+      /* height: 200px; */
+    }
+
+    /* .relative {
+      position: relative;
+      opacity: 0;
+    } */
+  </style>
+  <style>
+    .container {
+      width: 90% !important;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      // Cuộn trang lên đầu khi trang được tải lại
+      window.scrollTo(0, 0);
+    };
+  </script>
+</head>
+<!-- 8422 -->
+<style>
+  .qodef-icon-holder {}
+
+  .svg-inline--fa.fa-w-9 {
+    width: 0.5625em;
+  }
+
+  .svg-inline--fa.fa-w-14 {
+    width: 0.875em;
+  }
+
+  .svg-inline--fa.fa-w-18 {
+    width: 1.125em;
+  }
+
+  .svg-inline--fa.fa-w-16 {
+    width: 1em;
+  }
+
+  @media (max-width:980px) {
+
+    /* .nav-i-detail {
+      top: 63px !important;
+    } */
+    .container {
+
+      justify-content: end !important;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+
+<body
+  class="home page-template-default page page-id-6 et_pb_button_helper_class et_non_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_svg_logo et_pb_footer_columns4 et_cover_background et_pb_gutter linux et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db">
+
+  <!-- header -->
+  <style>
+    .mobile-mig-decktop {
+      /* height: auto; */
+    }
+
+    @media (max-width: 980px) {
+      .mobile-mig-decktop {
+        height: 100%;
+        display: none;
+      }
+
+      .background-img-show {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        position: absolute;
+        width: 100%;
+        height: -webkit-fill-available;
+        background-image: url(../image/Rectangle27-2.png);
+      }
+    }
+
+    header#main-header {
+      margin-bottom: 38px;
+    }
+
+    /* .background-img-show {
+				background-repeat: no-repeat;
+				background-size: contain;
+				height: 100%;
+				position: absolute;
+				width: 100%;
+				background-image: url(./image/back-ground-pc.png);
+			} */
+  </style>
+  <div>
+    <div class="background-img-show"></div>
+    <img src="../image/back-ground-pc-2(cam-nang).png" class="mobile-mig-decktop" alt=""
+      style=" position: absolute; width: 100%;">
+  </div>
+  <header
+    style="position: absolute; width: 100%; background-color: rgb(0,0,0,0); z-index: 1;     height: 80px;display: flex;"
+    data-height-onload="90" class="white white1" class="md-header md-header--shadow md-header--lifted white"
+    data-md-component="header">
+    <div class="container clearfix et_menu_container headleCn">
+      <div class="logo_container" style="visibility: hidden;">
+        <span class="logo_helper"></span>
+        <a href="#" style="margin-left: 30px;">
+          <img
+            style="height: 50px;width: 50px;object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 0 10px rgb(63 194 92 / 40%);"
+            src="../image/logo.png" alt="OpenRemote" height="50" width="57" id="logo" data-height-percentage="54" />
+        </a>
+      </div>
+      <style>
+        #top-menu {
+          display: flex !important;
+        }
+
+        .et_header_style_left #et-top-navigation nav>ul>li>a {
+          font-weight: 700;
+        }
+
+        @media (max-width: 980px) {
+          #top-menu li {
+            font-size: 13px !important;
+          }
+
+          .et_header_style_left #et-top-navigation nav>ul>li>a {
+            padding-bottom: 0px !important;
+          }
+
+          #top-menu li {
+            font-size: 8px !important;
+          }
+
+          #top-menu li {
+
+            padding-right: 5px !important;
+          }
+
+          .nav-i-detail {
+            position: absolute !important;
+          }
+
+          .et_header_style_left #et-top-navigation nav>ul>li>a {
+            font-size: 8px !important;
+            font-weight: 700 !important;
+          }
+        }
+      </style>
+      <div id="et-top-navigation" data-height="90" data-fixed-height="40" class="iconHeadl1">
+        <nav id="top-menu-nav">
+          <ul id="top-menu" class="nav">
+            <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a
+                href="../index.html">Làng Số</a></li>
+            <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a
+                class="" href="../cam-nang/index.html#text-34">Cẩm
+                nang</a></li>
+
+            <!-- <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a
+      href="../dichvu-tienich/index.html">Dịch vụ tiện ích</a></li> -->
+
+            <li id="menu-item-2314" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-2314">
+              <a href="../chuyen-langso/index.html">Chuyện làng số</a>
+
+            </li>
+            <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a
+                href="../dong-gop-y-kien/index.html">Chia sẻ Câu chuyện</a></li>
+            <!-- <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a
+      href="../nentang-so/index.html">Nền tảng số</a></li> -->
+
+
+            <!-- <li id="menu-item-1338"
+              class="menu-contact menu-item menu-item-type-post_type menu-item-object-page menu-item-1338">
+              <a href="../tailieu/Lang_So.pdf" target="_blank">Tải PDF</a>
+            </li> -->
+          </ul>
+        </nav>
+
+
+
+
+        <!-- <div id="et_mobile_nav_menu">
+          <div class="mobile_nav closed">
+            <span class="select_page">Select Page</span>
+            <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+          </div>
+        </div> -->
+      </div> <!-- #et-top-navigation -->
+    </div>
+    <!-- <div class="container clearfix et_menu_container" style="margin-bottom: 19px;
+    padding-left: 0px;
+    margin-top: 18px;
+    display: block;
+    width: 100%;
+    z-index: -1;
+    ">
+      <div class="logo_container" style="visibility: hidden;" style="padding-top: 19px;
+    display: flex;
+    align-items: center;">
+        <span class="logo_helper"></span>
+        <a href="#" style="margin-left: 8px;" class="aStyle">
+          <img class="imghw30"
+            style="height: 50px;width: 50px;object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 0 10px rgb(63 194 92 / 40%);"
+            src="../image/logo.png" alt="OpenRemote" height="50" width="57" id="logo" data-height-percentage="54" />
+        </a>
+      </div>
+
+      <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+
+        <div class="uk-offcanvas-bar"><a class="uk-logo uk-margin-small-bottom" href="/">Chuyển đổi số</a><button
+            class="uk-offcanvas-close" type="button" data-uk-close=""></button>
+          <ul class="uk-nav uk-nav-primary uk-margin-top">
+            <li class="uk-active"><a href="/docs/chuyen-doi-so-la-gi/">Cẩm nang</a></li>
+            <li><a href="https://dx.mic.gov.vn/doc-truc-tuyen/Handbook/pdf/Handbook.pdf" target="_blank">Tải pdf</a>
+            </li>
+            <li><a href="/blog/">FAQ</a></li>
+            <li><a href="/docs/loi-moi-cong-tac">Lời mời cộng tác</a></li>
+            <li><a href="/contact/">Liên hệ</a></li>
+            <li>
+              <div class="uk-navbar-item"><a class="uk-button uk-button-primary-outline" href="/doc-truc-tuyen/">Đọc
+                  trực
+                  tuyến</a></div>
+            </li>
+          </ul>
+          <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid="" class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+              <div class="uk-first-column"><a href="https://twitter.com/" data-uk-icon="icon: twitter"
+                  class="uk-icon-link uk-icon" target="_blank"></a></div>
+              <div><a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon"
+                  target="_blank"></a></div>
+              <div><a href="https://www.instagram.com/" data-uk-icon="icon: instagram" class="uk-icon-link uk-icon"
+                  target="_blank"></a></div>
+              <div><a href="https://vimeo.com/" data-uk-icon="icon: vimeo" class="uk-icon-link uk-icon"
+                  target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="" id="et-top-navigation" data-height="90" data-fixed-height="40" style="margin-top: 0px;padding-bottom: 10px; justify-content: center;
+    width:90%;">
+      <nav id="top-menu-nav">
+
+        <ul id="top-menu" class="nav">
+          <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a
+              href="../index.html">Làng Số</a></li>
+          <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a
+              href="#">Cẩm nang</a></li>
+          <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a
+              href="../dichvu-tienich/index.html">Dịch vụ tiện ích</a></li>
+          <li id="menu-item-2314" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-2314">
+            <a href="../chuyen-langso/index.html">Chuyện làng số</a>
+          </li>
+          <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a
+              href="../dong-gop-y-kien/index.html">Chia sẻ câu chuyện</a></li>
+          <li id="menu-item-43"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a
+									href="../nentang-so/index.html">Nền tảng số</a></li>
+          <li id="menu-item-1338"
+            class="menu-contact menu-item menu-item-type-post_type menu-item-object-page menu-item-1338">
+            <a href="../tailieu/Lang_So.pdf" target="_blank">Tải tài liệu</a>
+            
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+      <div id="et_mobile_nav_menu">
+        <div class="mobile_nav closed">
+          <span class="select_page">Select Page</span>
+          <span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+        </div>
+      </div>
+    </div> 
+    </div> 
+    <div class="et_search_outer">
+      <div class="container et_search_form_container">
+        <form role="search" method="get" class="et-search-form" action="/">
+          <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s"
+            title="Search for:" />
+        </form>
+        <span class="et_close_search_field"></span>
+      </div>
+    </div> -->
+  </header>
+
+
+
+
+
+  <div style="
+    width: 100%;
+    top: 63px;
+    position: fixed;
+    z-index: 0;
+    /* margin-top: 60px; */" class="nav-i-detail">
+    <nav class="uk-navbar-container" style="align-items: flex-end;height: 53px;align-items: baseline;">
+      <div class="uk-container" style="margin: 13px;">
+        <div data-uk-navbar="">
+          <div class="uk-navbar-left" id="toggleButton">
+
+
+            <span data-uk-navbar-toggle-icon=""></span> <span class="uk-margin-small-left">Chi tiết</span>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+  <div class="uk-section" id="scrollDiv">
+    <div class="uk-container">
+      <div class="uk-grid-large" data-uk-grid="">
+
+        <div class="sidebar-fixed-width uk-visible@m context-hide ">
+          <div class="sidebar-docs  fixed-element uk-margin-top menu-in-from-left"
+            style=" height: 100vh; padding-right: 10px;z-index: 2;padding-bottom: 100px">
+            <!-- uk-position-fixed -->
+            <div style="display: flex;justify-content: space-between;">
+              <h5 style="visibility: hidden;">Mở đầu </h5>
+
+              <div class="uk-navbar-left" id="toggleButton2">
+                <span class="uk-margin-small-left" style="
+                  font-family: cursive;
+                  font-size: 19px;
+                  float: right;">
+                  <svg fill="#000000" height="20px" width="20px" version="1.1" id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 460.775 460.775" xml:space="preserve">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55 c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55 c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505 c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55 l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719 c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z">
+                      </path>
+                    </g>
+                  </svg></span>
+              </div>
+            </div>
+            <!-- <ul class="uk-nav uk-nav-default doc-nav sidebar">
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="0">Lời nói đầu</a>
+              </li>
+            </ul> -->
+
+            <h5>
+              <a class="sidebar-item" href="#" data-index="34">Người dân làng số</a>
+            </h5>
+            <ul class="uk-nav uk-nav-default doc-nav sidebar">
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="1">Mở rộng hạ
+                  tầng số trong
+                  làng</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item " href="#" data-index="2">Được phổ cập
+                  kỹ năng
+                  số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="3">Ai cũng có danh tính số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" data-index="4" href="#">Được trang bị chữ ký số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" data-index="5" href="#">Biết sử dụng nền tảng số</a>
+              </li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" data-index="6" href="#">Xây dựng gia đình số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" data-index="7" href="#">Hình thành văn hóa số</a></li>
+
+              <li class="toggle-button"><a class="sidebar-item" data-index="26" href="#">Tổ công nghệ số
+                  cộng
+                  đồng</a></li>
+
+            </ul>
+
+            <h5><a class="sidebar-item" href="#" data-index="35">Dân làng sử dụng dịch vụ, tiện ích số</a></h5>
+            <ul class="uk-nav uk-nav-default doc-nav sidebar">
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="8">Dịch vụ công trực tuyến</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="9">Khám chữa bệnh từ xa</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="10">Học tập trực tuyến</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="11">Tiếp cận việc làm qua mạng</a>
+              </li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="12">Mua sắm trực tuyến</a></li>
+
+              <!-- chưa có nội dung -->
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="27">Thanh toán di động</a></li>
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="28">Đặt vé trực tuyến</a></li>
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="29">Giao tiếp số trong làng</a>
+              </li>
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="30">Truyền hình số di động</a></li>
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="31">Tiếp cận tín dụng số</a></li>
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="32">Bảo vệ thiết bị di động người
+                  dân</a></li>
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="33">Bảo vệ trẻ em trên môi trường
+                  số</a></li>
+              <!-- end chưa có nội dung -->
+
+            </ul>
+
+            <h5><a class="sidebar-item" href="#" data-index="36">Dân làng xây dựng không gian kiến trúc làng số</a></h5>
+            <ul class="uk-nav uk-nav-default doc-nav sidebar">
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="13">Nhà văn hóa số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="14">Thư viện sách số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="15">Mắt thần 24/7</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="16">Hệ thống chiếu sáng xanh</a>
+              </li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="17">Chợ số</a></li>
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="25">Truyền thanh số</a></li>
+
+            </ul>
+
+            <h5><a class="sidebar-item" href="#" data-index="37">Dân làng làm kinh tế số</a></h5>
+            <ul class="uk-nav uk-nav-default doc-nav sidebar">
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="18">Nông nghiệp số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="19">Thương mại số</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="20">Phát triển du lịch địa
+                  phương</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="21">Làng kinh tế số đặc thù</a>
+              </li>
+
+
+
+              <!-- <li class="toggle-button"><a class="sidebar-item" href="#" data-index="22">LÝ LUẬN VỀ PHÁT TRIỂN LÀNG SỐ
+                  VIỆT NAM NĂM
+                  2023</a></li> -->
+
+            </ul>
+
+            <!-- <h5>Tổng kết</h5>
+            <ul class="uk-nav uk-nav-default doc-nav sidebar">
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="23">Lời tổng kết</a></li>
+
+
+
+              <li class="toggle-button"><a class="sidebar-item" href="#" data-index="24">Lời cảm ơn !</a></li>
+
+            </ul> -->
+
+          </div>
+        </div>
+        <style>
+          nav.uk-navbar-container {
+            display: none !important;
+          }
+
+          @media (max-width: 959px) {
+            nav.uk-navbar-container {
+              display: flex !important;
+              border-bottom: 2px solid #14aa58;
+            }
+
+            div#et-top-navigation {
+              width: auto !important;
+            }
+
+            .sidebar-docs {
+              padding-top: 17px;
+              position: fixed !important;
+              padding-left: 20px;
+              background: #f5f5f5;
+              top: 30px !important;
+              left: 0px;
+              width: 70% !important;
+              height: 100vh !important;
+            }
+
+          }
+        </style>
+
+        <div class="uk-width-1-1 uk-width-expand@m content toggle-button" style="min-height: 700px;z-index: 1;">
+          <!-- Lời mời cộng tác -->
+          <div class="my-detail-class ">
+
+          </div>
+
+
+          <div id="text-34" class="section">
+
+            <h1 class="uk-article-title">Người dân làng số</h1>
+
+
+
+
+            <div class="article-content link-primary ">
+
+
+
+              <p>
+                “Dễ trăm lần không dân cũng chịu, khó vạn lần dân liệu cũng xong”
+              </p>
+
+              <p>
+                Xây dựng làng số, bắt đầu từ người dân. Dân làng là yếu tố quyết định trong việc biến những ngôi làng
+                bình thường trở thành những ngôi làng đáng sống. Thậm chí một ngôi làng bình thường, cũng có thể chuyển
+                mình trở thành một ngôi Làng số chỉ trong vòng 2 năm, thậm chí ít hơn nếu mọi người dân đều quyết tâm.
+              </p>
+
+
+              <p>
+                Bằng việc lắp đặt Internet tới từng hộ gia đình, người dân bắt đầu tiếp cận với môi trường mạng và dần
+                hình thành các kỹ năng số từ cơ bản đến nâng cao từ đó biết ứng dụng công nghệ số để thay đổi thói quen
+                sinh hoạt, thay đổi cách làm việc, từng bước cải thiện, nâng cao đời sống vật chất và tinh thần. Những
+                nền tảng số mang lại nhiều giá trị, lợi ích trở thành một phần trong nhịp sống sinh hoạt hàng ngày của
+                người dân, và được dân làng sử dụng thường xuyên.
+              </p>
+
+              <p>
+                Chuyên mục người dân Làng số sẽ nói về những hành trang mà người dân cần trang bị cho mình để từ đó có
+                thể tiếp cận với công nghệ và sử dụng các dịch vụ mà công nghệ số mang lại như những dịch vụ bình dân
+                khác, đồng thời biết ứng dụng công nghệ để làm kinh tế số, và tích lũy để tạo nên không gian kiến trúc
+                Làng số mang đậm những giá trị văn hóa truyền thống và kết hợp được những yếu tố hiện đại do công nghệ
+                mang lại.
+              </p>
+
+            </div>
+
+
+            <hr class="uk-margin-medium">
+
+            <div class="uk-margin-large-top paginate-post">
+              <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+                <div class="uk-first-column">
+
+
+
+
+
+
+                </div>
+                <div>
+
+
+
+
+                  <h5 style="text-align: end;">Mở rộng hạ tầng số trong làng</h5>
+                  <div class="uk-text-right"><a class="remove-underline hvr-forward myLink"
+                      href="./index.html#text-1">Đọc tiếp
+                      <span class="qodef-m-icon arrow-animation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                          viewBox="0 0 20.053 10.039">
+                          <path
+                            d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                            transform="translate(-2.875 -11.252)">
+                          </path>
+                        </svg>
+                      </span></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+          <!-- Mở rộng hạ tầng số -->
+          <div id="text-1" class="section">
+
+            <h1 class="uk-article-title">Mở rộng hạ tầng số trong làng</h1>
+
+            <!-- <p class="uk-text-lead uk-text-muted">Chuyển đổi số là quá trình thay đổi tổng thể và toàn diện của cá nhân,
+              tổ chức về cách sống, cách làm việc và phương thức sản xuất dựa trên các công nghệ số.</p> -->
+
+            <!-- <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+
+
+
+
+              <div>
+
+                Đăng bởi <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span
+                    itemprop="name">Cục tin học hoá - Bộ Thông tin và Truyền thông</span></span><br>
+
+                <time datetime="2023-04-22T01:23:28+00:00" itemprop="datePublished">
+
+                  Apr 22, 2023
+                </time>
+              </div>
+
+            </div> -->
+
+            <div class="article-content link-primary">
+              <!-- <h4 class="no_toc" id="tóm-tắt">Tóm tắt</h4> -->
+              <!-- <ul id="markdown-toc">
+                <li><a href="#tin-học-hóa-là-gì" id="markdown-toc-tin-học-hóa-là-gì">Tin học hóa là gì?</a></li>
+                <li><a href="#quá-trình-thay-đổi-tổng-thể-và-toàn-diện-là-gì"
+                    id="markdown-toc-quá-trình-thay-đổi-tổng-thể-và-toàn-diện-là-gì">Quá trình thay đổi tổng thể và toàn
+                    diện là gì?</a></li>
+                <li><a href="#sự-khác-nhau-căn-bản-giữa-chuyển-đổi-số-và-tin-học-hóa-là-gì"
+                    id="markdown-toc-sự-khác-nhau-căn-bản-giữa-chuyển-đổi-số-và-tin-học-hóa-là-gì">Sự khác nhau căn bản
+                    giữa chuyển đổi số và tin học hóa là gì?</a></li>
+                <li><a href="#sự-khác-nhau-căn-bản-giữa-chuyển-đổi-số-với-khoa-học-công-nghệ-và-đổi-mới-sáng-tạo-là-gì"
+                    id="markdown-toc-sự-khác-nhau-căn-bản-giữa-chuyển-đổi-số-với-khoa-học-công-nghệ-và-đổi-mới-sáng-tạo-là-gì">Sự
+                    khác nhau căn bản giữa chuyển đổi số với khoa học công nghệ và đổi mới sáng tạo là gì?</a></li>
+                <li><a href="#công-nghệ-số-là-gì" id="markdown-toc-công-nghệ-số-là-gì">Công nghệ số là gì?</a></li>
+                <li><a href="#cách-mạng-công-nghiệp-lần-thứ-tư-là-gì"
+                    id="markdown-toc-cách-mạng-công-nghiệp-lần-thứ-tư-là-gì">Cách mạng công nghiệp lần thứ tư là gì?</a>
+                </li>
+                <li><a href="#sự-khác-biệt-căn-bản-của-cuộc-cách-mạng-công-nghiệp-lần-thứ-tư-là-gì"
+                    id="markdown-toc-sự-khác-biệt-căn-bản-của-cuộc-cách-mạng-công-nghiệp-lần-thứ-tư-là-gì">Sự khác biệt
+                    căn bản của cuộc Cách mạng công nghiệp lần thứ tư là gì?</a></li>
+                <li><a href="#trí-tuệ-nhân-tạo-là-gì" id="markdown-toc-trí-tuệ-nhân-tạo-là-gì">Trí tuệ nhân tạo là
+                    gì?</a></li>
+                <li><a href="#internet-vạn-vật-là-gì" id="markdown-toc-internet-vạn-vật-là-gì">Internet vạn vật là
+                    gì?</a></li>
+                <li><a href="#dữ-liệu-lớn-là-gì" id="markdown-toc-dữ-liệu-lớn-là-gì">Dữ liệu lớn là gì?</a></li>
+                <li><a href="#điện-toán-đám-mây-là-gì" id="markdown-toc-điện-toán-đám-mây-là-gì">Điện toán đám mây là
+                    gì?</a></li>
+                <li><a href="#chuỗi-khối-là-gì" id="markdown-toc-chuỗi-khối-là-gì">Chuỗi khối là gì?</a></li>
+                <li><a href="#khó-khăn-và-thách-thức-lớn-nhất-của-chuyển-đổi-số-là-gì"
+                    id="markdown-toc-khó-khăn-và-thách-thức-lớn-nhất-của-chuyển-đổi-số-là-gì">Khó khăn và thách thức lớn
+                    nhất của chuyển đổi số là gì?</a></li>
+                <li><a href="#chuyển-đổi-số-có-gì-không-tốt" id="markdown-toc-chuyển-đổi-số-có-gì-không-tốt">Chuyển đổi
+                    số có gì không tốt?</a></li>
+                <li><a href="#tại-sao-nói-chuyển-đổi-số-là-thay-đổi-kích-thước-bàn-ăn"
+                    id="markdown-toc-tại-sao-nói-chuyển-đổi-số-là-thay-đổi-kích-thước-bàn-ăn">Tại sao nói chuyển đổi số
+                    là thay đổi kích thước bàn ăn?</a></li>
+              </ul> -->
+
+              <p>
+                Ngày nay, bên cạnh sự phát triển của hạ tầng kỹ thuật truyền thống như điện - đường
+                - trường - trạm, một vùng nông thôn được xem là hiện đại khi hạ tầng số ở nơi đó
+                phát triển; có kết nối mạng bao phủ đến từng đường làng, ngõ xóm; nhà nhà kết nối
+                Internet, người người có điện thoại thông minh.
+              </p>
+
+              <p class="indented-p-w">
+                Mở rộng hạ tầng số giúp mở rộng không gian kết nối của dân làng với thế giới, hạ tầng số càng mở rộng,
+                dân làng càng hưởng lợi
+              </p>
+
+              <p class="indented-p">
+                Chính quyền đầu tư cơ sở hạ tầng số, nhưng để mở rộng, bao phủ hạ tầng số đến từng gia đình thì phải dựa
+                vào sức mạnh của dân làng. Giống như ngày xưa, dù hạ tầng điện lưới được kéo về làng, nhưng để điện thắp
+                sáng từng nhà, rồi thắp sáng một vùng quê lại phải dựa vào người dân. Khi hạ tầng số được mở rộng, không
+                gian của làng sẽ mở rộng, không gian kết nối giữa người với người cũng được mở rộng và không bị giới hạn
+                bởi phạm vi địa lý.
+              </p>
+
+              <p class="indented-p-5">
+                “Ở bản Khúa xa xôi của xã Châu Lý, huyện miền núi Quỳ Hợp, tỉnh Nghệ An, kể từ khi mạng Internet phủ
+                sóng trong bản, dân bản bắt đầu tiếp xúc với các tiện ích như: nạp tiền điện, tiền điện thoại thông qua
+                các dịch vụ sử dụng mạng Internet; hay tham gia giao tiếp mọi người qua các mạng xã hội như Zalo,
+                Facebook; tiếp cận được nhiều thông tin hữu ích, qua đó học hỏi được các kiến thức để sản xuất, chăn
+                nuôi. Chỉ cần một chiếc điện thoại thông minh, dân làng trong bản đã có thể gọi điện và thấy hình ảnh
+                của con cháu, người thân, bạn bè… ở xa. Không những thế, việc sản xuất, chăn nuôi của các gia đình trong
+                bản cũng thuận lợi, dễ dàng hơn trước vì được trang bị thêm nhiều kiến thức mới”.
+              </p>
+
+              <p>
+                Hiện nay, tương tự bản Khúa, rất nhiều làng quê trên khắp mọi miền đất nước, nơi Internet đang được phủ
+                kín đến từng hộ gia đình, giống như điện, nước, trở thành một phần không thể thiếu trong cuộc sống hàng
+                ngày của người dân. Có những nơi, do kinh tế của người dân còn khó khăn, nên thay vì mỗi hộ gia đình có
+                một đường Internet cáp quang, thì ba, bốn hộ dân sẽ cùng sử dụng một đường Internet cáp quang tốc độ cao
+                và chia sẻ tiền cước phí hàng tháng. Càng nhiều hộ dân trong các làng quê lắp đặt và sử dụng Internet
+                thì sẽ góp phần mở rộng, bao phủ hạ tầng số trong các làng quê Việt Nam.
+              </p>
+            </div>
+
+
+
+            <hr class="uk-margin-medium">
+            <div class="uk-margin-large-top paginate-post">
+              <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+                <div class="uk-first-column">
+
+
+
+
+                  <h5>Người dân làng số</h5>
+                  <div><a class="remove-underline hvr-back myLink" href="./index.html#text-34"><span
+                        class="qodef-m-icon arrow-animation">
+                        <svg fill="#000000" width="40.053" height="20.039" version="1.1" id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 476.213 476.213" xml:space="preserve">
+                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <polygon
+                              points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107 ">
+                            </polygon>
+                          </g>
+                        </svg>
+                      </span> Quay lại</a>
+                  </div>
+
+                </div>
+                <div>
+
+
+
+
+                  <h5 style="text-align: end;">Được phổ cập kỹ năng số</h5>
+                  <div class="uk-text-right"><a class="remove-underline hvr-forward myLink"
+                      href="./index.html#text-2">Đọc tiếp
+                      <span class="qodef-m-icon arrow-animation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                          viewBox="0 0 20.053 10.039">
+                          <path
+                            d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                            transform="translate(-2.875 -11.252)">
+                          </path>
+                        </svg>
+                      </span></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Được phổ cập kỹ năng số -->
+          <div id="text-2" class="section">
+
+            <h1 class="uk-article-title">Được phổ cập kỹ năng số</h1>
+
+            <!-- <p class="uk-text-lead uk-text-muted">Chuyển đổi số không chỉ giúp tăng năng suất, giảm chi phí mà còn mở ra
+              không gian phát triển mới, tạo ra các giá trị mới ngoài các giá trị truyền thống vốn có.</p> -->
+            <!-- 
+            <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+
+
+
+
+              <div>
+
+                Đăng bởi <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span
+                    itemprop="name">Cục tin
+                    học hoá - Bộ Thông tin và Truyền thông</span></span><br>
+
+                <time datetime="2023-04-22T01:23:28+00:00" itemprop="datePublished">
+
+                  Apr 22, 2023
+                </time>
+              </div>
+
+            </div> -->
+
+            <div class="article-content link-primary">
+              <!-- <h4 class="no_toc" id="tóm-tắt">Tóm tắt</h4> -->
+              <!-- <ul id="markdown-toc">
+                <li><a href="#chuyển-đổi-số-quốc-gia-là-gì" id="markdown-toc-chuyển-đổi-số-quốc-gia-là-gì">Chuyển đổi số
+                    quốc gia là gì?</a></li>
+                <li><a href="#vì-sao-việt-nam-cần-chuyển-đổi-số" id="markdown-toc-vì-sao-việt-nam-cần-chuyển-đổi-số">Vì
+                    sao Việt Nam cần chuyển đổi số?</a></li>
+                <li><a href="#việt-nam-có-cơ-hội-chuyển-đổi-số-không"
+                    id="markdown-toc-việt-nam-có-cơ-hội-chuyển-đổi-số-không">Việt Nam có cơ hội chuyển đổi số không?</a>
+                </li>
+                <li><a href="#vì-sao-chuyển-đổi-số-là-cơ-hội-lớn"
+                    id="markdown-toc-vì-sao-chuyển-đổi-số-là-cơ-hội-lớn">Vì sao
+                    chuyển đổi số là cơ hội lớn?</a></li>
+                <li><a href="#vì-sao-doanh-nghiệp-cần-chuyển-đổi-số"
+                    id="markdown-toc-vì-sao-doanh-nghiệp-cần-chuyển-đổi-số">Vì
+                    sao doanh nghiệp cần chuyển đổi số?</a>
+                </li>
+                <li><a href="#vì-sao-cá-nhân-cần-chuyển-đổi-số" id="markdown-toc-vì-sao-cá-nhân-cần-chuyển-đổi-số">Vì
+                    sao cá nhân cần chuyển đổi số?</a></li>
+                <li><a href="#tại-sao-nói-chuyển-đổi-số-hay-là-chết"
+                    id="markdown-toc-tại-sao-nói-chuyển-đổi-số-hay-là-chết">Tại
+                    sao nói chuyển đổi số hay là chết?</a>
+                </li>
+              </ul> -->
+
+              <!-- <h3 id="chuyển-đổi-số-quốc-gia-là-gì">Chuyển đổi số quốc gia là gì?</h3> -->
+              <p>
+                Khi hạ tầng số trong làng đã được mở rộng, bên trong các làng quê, trong mỗi hộ gia đình, hình ảnh dân
+                làng sử dụng điện thoại thông minh, có cài đặt các ứng dụng như Zalo, Facebook để nói chuyện, gọi video
+                cho nhau xuất hiện khắp nơi, rồi dùng Coccoc, Google để tìm kiếm thông tin trên mạng, hay vào các
+                website để đọc báo; chuyên nghiệp hơn là việc dân làng bắt đầu biết đến việc mua sắm trực tuyến, sử dụng
+                tài khoản ngân hàng để thành toán hóa đơn điện, nước cho gia đình. Tất cả những thứ chúng ta thấy đó
+                chính là kỹ năng số mà dân làng vẫn sử dụng trong sinh hoạt hàng ngày.
+              </p>
+
+              <p>
+                Kỹ năng số là khả năng dân làng sử dụng các phương tiện công nghệ như điện thoại, máy tính để cài đặt,
+                sử dụng các phần mềm, nền tảng, các ứng dụng phục vụ cho nhu cầu cơ bản thường ngày của con người như:
+                giao tiếp, ăn mặc, đi lại…, cho đến các nhu cầu cao hơn như: khám chữa bệnh từ xa, áp dụng công nghệ sản
+                xuất kinh doanh, giao tiếp trực tuyến với chính quyền.
+              </p>
+
+              <p class="indented-p-w">
+                Người dân trong làng tự trang bị cho mình kỹ năng số thông qua nền tảng số
+              </p>
+
+              <p class="indented-p">
+                Để trang bị cho mình kỹ năng số, dân làng có thể tham gia khóa học “Phổ cập kỹ năng số cộng đồng” hoàn
+                toàn miễn phí ngay trên nền tảng đào tạo học trực tuyến mở đại trà OneTouch, do Bộ thông tin và Truyền
+                thông phát triển. Chỉ cần đăng ký một tài khoản và đăng nhập vào nền tảng, người dân ở khắp các làng quê
+                có thể truy cập vào liên kết https://onetouch.mic.gov.vn/khoa-hoc/cdsc-pho-cap-ky-nang-so-cong-dong để
+                học. Chương trình học được thiết kế để mọi người có thể tiếp cận công nghệ theo cách rất đơn giản, rất
+                tự nhiên, xuất phát từ nhu cầu của người dân và có thể ứng dụng trong cuộc sống hàng ngày.
+              </p>
+
+              <p class="indented-p">
+                Ngoài ra, trên nền tảng OneTouch còn có nhiều khóa học miễn phí hữu ích khác như: làm bạn cùng con trên
+                môi trường số, hướng dẫn thanh toán không dùng tiền mặt, an toàn thông tin cá nhân trên môi trường
+                số,... Người dân có thể trang bị thêm cho mình và gia đình kiến thức, kỹ năng tại liên kết
+                https://onetouch.mic.gov.vn/danh-sach-khoa-hoc.
+              </p>
+
+              <p class="indented-p-w">
+                Người dân trong làng nhận được nhiều lợi ích sau khi học xong khóa học
+                “Phổ cập kỹ năng số cộng đồng”
+              </p>
+
+              <p class="indented-p">
+                <i>Thứ nhất,</i> dân làng có thể biết cách giải quyết các thủ tục hành chính mà không cần đến cơ quan
+                chức năng
+                thông qua cổng dịch vụ công trực tuyến.
+              </p>
+
+              <p class="indented-p">
+                <i>Thứ hai,</i> dân làng biết được cách thực hiện thanh toán không dùng tiền mặt để sử dụng khi mua sắm,
+                giao
+                dịch.
+              </p>
+
+              <p class="indented-p">
+                <i>Thứ ba,</i> dân làng biết được cách thức mua bán trên sàn thương mại điện tử để có thể bán hàng qua
+                mạng,
+                hay đơn giản là dễ dàng mua sắm những vật dụng mình yêu thích mà không cần đến chợ.
+              </p>
+
+              <p class="indented-p">
+                <i>Thứ tư,</i> dân làng cũng có thể sử dụng các nền tảng số Việt Nam, như: Viettel Money, Postmart, VOV
+                Bacsi24,… để phục vụ nhu cầu trong cuộc sống. Lợi ích của những dịch nền tảng này giới thiệu trong phần
+                tiếp theo.
+              </p>
+
+              <p class="indented-p">
+                <i>Thứ năm,</i> dân làng biết sử dụng các phần mềm bảo đảm an toàn thông tin mạng cơ bản để bảo vệ mình
+                và gia
+                đình khỏi những mối đe dọa trên mạng như lừa đảo trực tuyến, phần mềm mã độc.
+              </p>
+
+
+
+            </div>
+            <hr class="uk-margin-medium">
+            <div class="uk-margin-large-top paginate-post">
+              <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+                <div class="uk-first-column">
+
+
+
+
+                  <h5>Mở rộng hạ tầng số trong làng</h5>
+                  <div><a class="remove-underline hvr-back myLink" href="./index.html#text-1"><span
+                        class="qodef-m-icon arrow-animation">
+                        <svg fill="#000000" width="40.053" height="20.039" version="1.1" id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 476.213 476.213" xml:space="preserve">
+                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <polygon
+                              points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107 ">
+                            </polygon>
+                          </g>
+                        </svg>
+                      </span> Quay lại</a>
+                  </div>
+
+                </div>
+                <div>
+
+
+
+
+                  <h5 style="text-align: end;">Ai cũng có tính danh số</h5>
+                  <div class="uk-text-right"><a class="remove-underline hvr-forward myLink"
+                      href="./index.html#text-3">Đọc tiếp
+                      <span class="qodef-m-icon arrow-animation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                          viewBox="0 0 20.053 10.039">
+                          <path
+                            d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                            transform="translate(-2.875 -11.252)">
+                          </path>
+                        </svg>
+                      </span></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Ai cũng có danh tính số -->
+          <div id="text-3" class="section">
+
+            <h1 class="uk-article-title">Ai cũng có danh tính số</h1>
+
+            <!-- <p class="uk-text-lead uk-text-muted">Chuyển đổi số là quá trình thay đổi tổng thể và toàn diện. Với một tổ
+              chức, vì
+              là sự thay đổi, nên trước tiên đó là việc của lãnh đạo, của người đứng đầu, vì nếu không thì không ai dám
+              làm và có
+              thể làm. Vì là tổng thể và toàn diện nên đó là việc của tất cả mọi thành viên trong tổ chức.</p> -->
+            <!-- 
+            <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+
+
+
+
+              <div>
+
+                Đăng bởi <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span
+                    itemprop="name">Cục tin
+                    học hoá - Bộ Thông tin và Truyền thông</span></span><br>
+
+                <time datetime="2023-04-22T01:23:28+00:00" itemprop="datePublished">
+
+                  Apr 22, 2023
+                </time>
+              </div>
+
+            </div> -->
+
+            <div class="article-content link-primary">
+              <!-- <h4 class="no_toc" id="tóm-tắt">Tóm tắt</h4> -->
+              <!-- <ul id="markdown-toc">
+                <li><a href="#nhà-lãnh-đạo-chuyển-đổi-số-là-ai" id="markdown-toc-nhà-lãnh-đạo-chuyển-đổi-số-là-ai">Nhà
+                    lãnh đạo
+                    chuyển đổi số là ai?</a></li>
+                <li><a href="#chuyên-gia-công-nghệ-số-là-ai" id="markdown-toc-chuyên-gia-công-nghệ-số-là-ai">Chuyên gia
+                    công nghệ
+                    số là ai?</a></li>
+                <li><a href="#người-tham-gia-chuyển-đổi-số-là-ai"
+                    id="markdown-toc-người-tham-gia-chuyển-đổi-số-là-ai">Người tham
+                    gia chuyển đổi số là ai?</a></li>
+                <li><a href="#chuyển-đổi-số-có-phải-là-chuyện-riêng-của-các-doanh-nghiệp-công-nghệ-số"
+                    id="markdown-toc-chuyển-đổi-số-có-phải-là-chuyện-riêng-của-các-doanh-nghiệp-công-nghệ-số">Chuyển đổi
+                    số có
+                    phải là chuyện riêng của các doanh nghiệp công nghệ số?</a></li>
+                <li><a href="#có-những-loại-hình-doanh-nghiệp-công-nghệ-số-nào"
+                    id="markdown-toc-có-những-loại-hình-doanh-nghiệp-công-nghệ-số-nào">Có những loại hình doanh nghiệp
+                    công nghệ
+                    số nào?</a></li>
+                <li><a href="#tại-sao-nói-chuyển-đổi-số-là-cuộc-cách-mạng-toàn-dân"
+                    id="markdown-toc-tại-sao-nói-chuyển-đổi-số-là-cuộc-cách-mạng-toàn-dân">Tại sao nói chuyển đổi số là
+                    cuộc cách
+                    mạng toàn dân?</a></li>
+              </ul> -->
+
+              <!-- <h3 id="nhà-lãnh-đạo-chuyển-đổi-số-là-ai">Nhà lãnh đạo chuyển đổi số là ai?</h3> -->
+              <p>
+                Danh tính số là tập hợp những thông tin số, chẳng hạn như: ngày, tháng, năm sinh, giới tính, mã vùng nơi
+                sinh,… để xác định duy nhất một người trong các giao dịch điện tử trên môi trường mạng.
+              </p>
+
+              <p>Trước đây, mỗi khi đi đâu ra ngoài, trong túi của người dân luôn mang theo giấy tờ tùy thân và đủ loại
+                giấy tờ cá nhân, vừa bất tiện, vừa rất phiền phức nếu chẳng may bị thất lạc, mất cắp. Bây giờ, song song
+                với căn cước công dân, mỗi người dân có thêm ứng dụng định danh điện tử VneID (https://vneid.com/) với
+                đầy đủ thông tin về danh tính. Dân làng ai cũng cài đặt và kích hoạt VneID trên điện thoại thông minh,
+                thì nghĩa là mỗi người dân trong làng đã tự thiết lập cho mình một danh tính số, danh tính số này có giá
+                trị sử dụng thay thế các giấy tờ truyền thống.
+              </p>
+
+              <p class="indented-p-w">
+                Mọi người dân đều cài đặt VneID sẽ giúp dân làng thuận tiện hơn khi xử lý các công việc cần yêu cầu
+                xác minh danh tính
+              </p>
+
+              <p class="indented-p">Sau khi cài đặt VneID, khi đi ra ngoài, thay vì phải mang theo đủ loại giấy tờ như
+                trước đây, người dân
+                trong làng chỉ cần mang theo điện thoại thông minh là có thể xuất trình khi có yêu cầu kiểm tra. Ngoài
+                ra VneID còn giúp dân làng nhanh chóng, đơn giản và thuận tiện trong quá trình xử lý công việc liên quan
+                tới thủ tục hành chính, du lịch, lưu trú, giúp tiết kiệm tối đa về thời gian cũng như có thể hạn chế
+                được tình trạng mất cắp hoặc thất lạc của các loại giấy tờ tùy thân quan trọng.
+              </p>
+
+              <p>
+                Hiện tại các sân bay nội địa, người dân đi máy bay có thể sử dụng thông tin giấy tờ cá nhân đã được tích
+                hợp trên ứng dụng VneID để xác thực danh tính khi làm thủ tục thay các loại giấy tờ tùy thân như: giấy
+                chứng minh nhân dân, căn cước công dân, giấy phép lái xe,...
+              </p>
+
+
+            </div>
+            <hr class="uk-margin-medium">
+            <div class="uk-margin-large-top paginate-post">
+              <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+                <div class="uk-first-column">
+
+
+
+
+                  <h5>Được phổ cập kỹ năng số</h5>
+                  <div><a class="remove-underline hvr-back myLink" href="./index.html#text-2"><span
+                        class="qodef-m-icon arrow-animation">
+                        <svg fill="#000000" width="40.053" height="20.039" version="1.1" id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 476.213 476.213" xml:space="preserve">
+                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <polygon
+                              points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107 ">
+                            </polygon>
+                          </g>
+                        </svg>
+                      </span> Quay lại</a>
+                  </div>
+
+                </div>
+                <div>
+
+
+
+
+                  <h5 style="text-align: end;">Được trang bị chữ ký số</h5>
+                  <div class="uk-text-right"><a class="remove-underline hvr-forward myLink"
+                      href="./index.html#text-4">Đọc tiếp
+                      <span class="qodef-m-icon arrow-animation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                          viewBox="0 0 20.053 10.039">
+                          <path
+                            d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                            transform="translate(-2.875 -11.252)">
+                          </path>
+                        </svg>
+                      </span></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Được trang bị chữ ký số   -->
+          <div id="text-4" class="section">
+
+            <h1 class="uk-article-title">Được trang bị chữ ký số</h1>
+
+
+
+            <div class="article-content link-primary">
+              <!-- <h4 class="no_toc" id="tóm-tắt">Tóm tắt</h4> -->
+              <!-- <ul id="markdown-toc">
+                <li><a href="#chuyển-đổi-số-trước-khi-khủng-khoảng"
+                    id="markdown-toc-chuyển-đổi-số-trước-khi-khủng-khoảng">Chuyển
+                    đổi số trước khi khủng khoảng?</a></li>
+                <li><a href="#hay-khủng-hoảng-rồi-mới-chuyển-đổi"
+                    id="markdown-toc-hay-khủng-hoảng-rồi-mới-chuyển-đổi">Hay khủng
+                    hoảng rồi mới chuyển đổi?</a></li>
+                <li><a href="#cách-tốt-nhất-để-dự-đoán-tương-lai-là-gì"
+                    id="markdown-toc-cách-tốt-nhất-để-dự-đoán-tương-lai-là-gì">Cách tốt nhất để dự đoán tương lai là
+                    gì?</a></li>
+              </ul> -->
+
+              <p>
+                Trong cuộc sống hàng ngày, chúng ta vẫn thường sử dụng chữ ký tay để ký vào các tờ khai cá nhân, đăng ký
+                kết hôn, hồ sơ xin việc,… Chữ ký tay như một lời cam kết, lời hứa của một người, một tổ chức đối với một
+                việc cụ thể và không thể rút lại. Chữ ký tay đã tồn tại một thời gian dài và bộc lộ một số hạn chế, nhất
+                là khi có nhu cầu làm giấy tờ thì người dân đều phải có mặt trực tiếp để ký xác nhận, nhiều trường hợp
+                đi làm ăn xa, muốn xin giấy tờ cần sự xác nhận lại phải lặn lội đường xa về xử lý, gây tốn thời gian,
+                công sức, tiền bạc.
+              </p>
+
+              <p class="indented-p-w">
+                Chữ ký số giúp khắc phục những hạn chế của chữ ký tay, có giá trị sử dụng tương đương chữ ký tay và
+                được pháp luật thừa nhận
+              </p>
+
+              <p class="indented-p">
+                Trước đây, người dân đến cơ quan chức năng đăng ký khai sinh cho con thì viết tờ khai sau đó ký tên. Bây
+                giờ, chỉ cần ngồi ở nhà điền vào mẫu khai thông tin và thực hiện ký số qua hệ thống dịch vụ công là có
+                thể hoàn thành mọi thủ tục khai sinh.
+              </p>
+
+              <p class="indented-p">
+                Trước đây, để ký một hợp đồng với đối tác ở xa thì phải đến tận nơi hoặc hai bên ký xong rồi gửi bản
+                giấy qua bưu điện, gây ra nhiều bất tiện, tốn thời gian, công sức, chi phí đi lại của các bên. Bây giờ,
+                nếu sử dụng chữ ký số thì chỉ mất chưa đầy 5 phút, hai bên đối tác có thể ký xong một hợp đồng.
+              </p>
+
+              <p class="indented-p">
+                Chữ ký số có vai trò tương tự chữ ký tay của cá nhân, hay một con dấu của cơ quan, doanh nghiệp và được
+                pháp luật thừa nhận về mặt pháp lý khi thực hiện giao dịch trên môi trường điện tử.
+              </p>
+
+              <p class="indented-p">
+                Khi sử dụng chữ ký số, các hộ kinh doanh, các hợp tác xã, doanh nghiệp địa phương chỉ cần ngồi tại làng
+                mình, mà vẫn có thể ký kết các hợp đồng mua bán từ xa với đối tác, hay giải quyết các thủ tục hành chính
+                dễ dàng qua hệ thống dịch vụ công mà không cần đến trực tiếp cơ quan chức năng.
+              </p>
+
+              <p>
+                Người dân, doanh nghiệp có thể đăng ký chữ ký số qua một số nhà cung cấp dịch vụ chữ ký số đã được cấp
+                phép như: nhà cung cấp Viettel tại địa chỉ: https://viettelca.vn, VNPT tại địa chỉ:
+                https://smartca.vnpt.vn, FPT tại địa chỉ: https://www.fptca.net, Misa tại địa chỉ:
+                https://esign.misa.vn,... Hiện tất cả các đơn vị cung cấp dịch vụ chữ ký số đều có đội ngũ hỗ trợ, cùng
+                với hướng dẫn chi tiết đăng tải trên website để mọi người đăng ký sử dụng.
+              </p>
+
+
+
+            </div>
+            <hr class="uk-margin-medium">
+            <div class="uk-margin-large-top paginate-post">
+              <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+                <div class="uk-first-column">
+
+
+
+
+                  <h5>Ai cũng có danh tính số</h5>
+                  <div><a class="remove-underline hvr-back myLink" href="./index.html#text-3"><span
+                        class="qodef-m-icon arrow-animation">
+                        <svg fill="#000000" width="40.053" height="20.039" version="1.1" id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 476.213 476.213" xml:space="preserve">
+                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <polygon
+                              points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107 ">
+                            </polygon>
+                          </g>
+                        </svg>
+                      </span> Quay lại</a>
+                  </div>
+
+                </div>
+                <div>
+
+
+
+
+                  <h5 style="text-align: end;">Biết sử dụng nền tảng số</h5>
+                  <div class="uk-text-right"><a class="remove-underline hvr-forward myLink"
+                      href="./index.html#text-5">Đọc tiếp
+                      <span class="qodef-m-icon arrow-animation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                          viewBox="0 0 20.053 10.039">
+                          <path
+                            d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                            transform="translate(-2.875 -11.252)">
+                          </path>
+                        </svg>
+                      </span></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Biết sử dụng nền tảng số -->
+          <div id="text-5" class="section">
+
+            <h1 class="uk-article-title">Biết sử dụng nền tảng số</h1>
+
+            <!-- <p class="uk-text-lead uk-text-muted">Chuyển đổi số là quá trình thay đổi tổng thể và toàn diện. Chuyển đổi
+              số chỉ
+              thành công khi trở thành chiến lược cốt lõi, thay vì là nỗ lực riêng biệt, chuyển đổi số phải bao trùm lên
+              mọi hoạt
+              động, mọi bước đi của tổ chức.</p> -->
+            <!-- 
+            <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+
+
+
+
+              <div>
+
+                Đăng bởi <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span
+                    itemprop="name">Cục tin
+                    học hoá - Bộ Thông tin và Truyền thông</span></span><br>
+
+                <time datetime="2023-04-22T01:23:28+00:00" itemprop="datePublished">
+
+                  Apr 22, 2023
+                </time>
+              </div>
+
+            </div> -->
+
+            <div class="article-content link-primary">
+              <!-- <h4 class="no_toc" id="tóm-tắt">Tóm tắt</h4> -->
+              <!-- <ul id="markdown-toc">
+                <li><a href="#trước-tiên-tiến-hành-các-thử-nghiệm-quy-mô-nhỏ-có-được-không"
+                    id="markdown-toc-trước-tiên-tiến-hành-các-thử-nghiệm-quy-mô-nhỏ-có-được-không">Trước tiên, tiến hành
+                    các thử
+                    nghiệm quy mô nhỏ có được không?</a></li>
+                <li><a href="#trước-tiên-ứng-dụng-công-nghệ-số-để-giảm-chi-phí-có-được-không"
+                    id="markdown-toc-trước-tiên-ứng-dụng-công-nghệ-số-để-giảm-chi-phí-có-được-không">Trước tiên, ứng
+                    dụng công
+                    nghệ số để giảm chi phí có được không?</a></li>
+                <li><a href="#làm-nhanh-làm-nhiều-là-tốt" id="markdown-toc-làm-nhanh-làm-nhiều-là-tốt">Làm nhanh, làm
+                    nhiều là
+                    tốt?</a></li>
+              </ul> -->
+
+              <p>Nếu như trước đây người dân trong làng muốn tư vấn chăm sóc sức khỏe thì tìm đến các trung tâm y tế,
+                bệnh viện, phải di chuyển một quảng đường xa, và thường theo một khung giờ định sẵn thì bây giờ, với
+                những bệnh thường gặp, không cần thăm khám chuyên sâu, thông qua nền tảng số “khám chữa bệnh từ xa”, như
+                VOV Bacsi24, người dân có thể ngồi tại nhà mình, lựa chọn bác sĩ chuyên khoa, khám theo khung thời gian
+                mình lựa chọn mà vẫn đảm bảo chất lượng.</p>
+
+              <p>Nền tảng số hiểu đơn giản là một giải pháp công nghệ được sinh ra với mục đích mang những thứ tồn tại
+                bên ngoài đời thật lên không gian mạng, giống như trường học, bệnh viện, hay siêu thị, để bất cứ ai cũng
+                có thể sử dụng, tại bất cứ nơi nào, bất cứ thời gian nào mà không cần phải đến trực tiếp tận nơi.</p>
+
+              <p class="indented-p-w">
+                Nền tảng số đang xuất hiện ngày càng nhiều trong cuộc sống của người dân tại các
+                vùng nông thôn, càng
+                nhiều người sử dụng, lợi ích mang lại càng lớn
+              </p>
+
+              <p class="indented-p">
+                Hiện nay, đi về các vùng nông thôn, chúng ta dễ dàng bắt gặp nền tảng số Viettel Money, được triển khai
+                ở các khu chợ. Nếu biết sử dụng thì người dân đi chợ có thể thực hiện mua bán mà không cần dùng tiền
+                mặt. Ngoài ra, biết sử dụng nền tảng số còn giúp các vị phụ huynh đồng hành cùng con em trong học tập
+                qua nền tảng “Cốc cốc học tập” với hơn 90 ngàn lượt truy cập mỗi ngày. Biết sử dụng nền tảng số, thì khi
+                có nhu cầu di chuyển, đi lại, thay vì phải đến tận đại lý để mua vé, hoặc gọi điện cho nhà xe thì người
+                dân có thể mua vé trực tuyến qua nền tảng Vexere. Biết sử dụng nền tảng số, mọi thành viên trong gia
+                đình, hay trong làng đều dễ dàng liên lạc với nhau qua Zalo, vừa tiết kiệm chi phí, vừa gọi bằng hình
+                ảnh nên giống như đang ngồi trước mặt nói chuyện,… Ngoài ra còn rất nhiều lợi ích thiết thực, giúp dân
+                làng tiết kiệm thời gian, chi phí, nâng cao chất lượng sống, thậm chí mở ra cơ hội kinh doanh, làm giàu
+                khi ta biết sử dụng các nền tảng số.
+              </p>
+
+              <p>
+                Được sinh ra để giải quyết những vấn đề nhức nhối mà người dân đang gặp phải, nền tảng số đang góp phần
+                thay đổi thói quen và hỗ trợ người dân giải quyết những nhu cầu thường gặp trong cuộc sống. Với hệ sinh
+                thái các nền tảng số đầy đủ cho tất cả các lĩnh vực từ y tế, giáo dục, sản xuất nông nghiệp, cùng với hạ
+                tầng số phát triển, điện thoại thông minh và mạng kết nối bao phủ, người dân trong làng có thể tiếp cận
+                với đầy đủ các nền tảng, phục vụ các nhu cầu thiết yếu, từng bước cải thiện, nâng cao chất lượng cuộc
+                sống hàng ngày của chính bản thân, của gia đình, và của cộng đồng.
+              </p>
+
+
+
+            </div>
+            <hr class="uk-margin-medium">
+            <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+              <div class="uk-first-column">
+
+
+
+
+                <h5>Được trang bị chữ ký số</h5>
+                <div><a class="remove-underline hvr-back myLink" href="./index.html#text-4"><span
+                      class="qodef-m-icon arrow-animation">
+                      <svg fill="#000000" width="40.053" height="20.039" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 476.213 476.213" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <polygon
+                            points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107 ">
+                          </polygon>
+                        </g>
+                      </svg>
+                    </span> Quay lại</a>
+                </div>
+
+              </div>
+              <div>
+
+
+
+
+                <h5 style="text-align: end;">Xây dựng gia đình số</h5>
+                <div class="uk-text-right"><a class="remove-underline hvr-forward myLink" href="./index.html#text-6">Đọc
+                    tiếp
+                    <span class="qodef-m-icon arrow-animation">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                        viewBox="0 0 20.053 10.039">
+                        <path
+                          d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                          transform="translate(-2.875 -11.252)">
+                        </path>
+                      </svg>
+                    </span></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Xây dựng gia đình số -->
+          <div id="text-6" class="section">
+
+            <h1 class="uk-article-title">Xây dựng gia đình số</h1>
+
+            <!-- <p class="uk-text-lead uk-text-muted">Chuyển đổi số là một quá trình đa dạng, không có con đường và hình mẫu
+              chung cho
+              tất cả, và do vậy, từng tổ chức, từng cá nhân cần xác định lộ trình riêng, thích hợp với mình.</p> -->
+
+            <!-- <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+
+
+
+
+              <div>
+
+                Đăng bởi <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span
+                    itemprop="name">Cục tin
+                    học hoá - Bộ Thông tin và Truyền thông</span></span><br>
+
+                <time datetime="2023-04-22T01:23:28+00:00" itemprop="datePublished">
+
+                  Apr 22, 2023
+                </time>
+              </div>
+
+            </div> -->
+
+            <div class="article-content link-primary">
+              <!-- <h4 class="no_toc" id="tóm-tắt">Tóm tắt</h4> -->
+              <!-- <ul id="markdown-toc">
+                <li><a href="#có-một-lộ-trình-chung-để-tham-khảo-hay-không"
+                    id="markdown-toc-có-một-lộ-trình-chung-để-tham-khảo-hay-không">Có một lộ trình chung để tham khảo
+                    hay
+                    không?</a></li>
+                <li><a href="#xây-dựng-chiến-lược-chuyển-đổi-số-như-thế-nào"
+                    id="markdown-toc-xây-dựng-chiến-lược-chuyển-đổi-số-như-thế-nào">Xây dựng chiến lược chuyển đổi số
+                    như thế
+                    nào?</a></li>
+                <li><a href="#thuê-tư-vấn-chuyển-đổi-số-như-thế-nào"
+                    id="markdown-toc-thuê-tư-vấn-chuyển-đổi-số-như-thế-nào">Thuê
+                    tư vấn chuyển đổi số như thế nào?</a></li>
+                <li><a href="#nền-tảng-số-là-gì" id="markdown-toc-nền-tảng-số-là-gì">Nền tảng số là gì?</a></li>
+                <li><a href="#sử-dụng-nền-tảng-để-chuyển-đổi-số-như-thế-nào"
+                    id="markdown-toc-sử-dụng-nền-tảng-để-chuyển-đổi-số-như-thế-nào">Sử dụng nền tảng để chuyển đổi số
+                    như thế
+                    nào?</a></li>
+                <li><a href="#hiểu-về-make-in-viet-nam-như-thế-nào"
+                    id="markdown-toc-hiểu-về-make-in-viet-nam-như-thế-nào">Hiểu về
+                    Make in Viet Nam như thế nào?</a></li>
+                <li><a href="#hình-thành-văn-hóa-trong-kỷ-nguyên-số-như-thế-nào"
+                    id="markdown-toc-hình-thành-văn-hóa-trong-kỷ-nguyên-số-như-thế-nào">Hình thành văn hóa trong kỷ
+                    nguyên số như
+                    thế nào?</a></li>
+                <li><a href="#làm-thế-nào-để-địa-phương-khởi-động-chuyển-đổi-số-một-cách-dễ-dàng"
+                    id="markdown-toc-làm-thế-nào-để-địa-phương-khởi-động-chuyển-đổi-số-một-cách-dễ-dàng">Làm thế nào để
+                    địa phương
+                    khởi động chuyển đổi số một cách dễ dàng?</a></li>
+              </ul> -->
+
+              <p>
+                Hiện nay, đi về các làng quê, chúng ta thấy hạ tầng số trong làng ngày càng được mở rộng, nhà nhà bắt
+                đầu sử dụng Internet. Bên cạnh những kỹ năng số của mỗi người dân trong làng, các nền tảng số đang được
+                nhiều gia đình sử dụng, để phục vụ các nhu cầu trong cuộc sống như con cháu trong nhà được học tập trực
+                tuyến; bố mẹ sử dụng công nghệ số vào hoạt động kinh doanh, sản xuất, xử lý các thủ tục hành chính qua
+                mạng; ông bà sử dụng công nghệ cho liên lạc, cập nhật thông tin, chăm sóc y tế.
+              </p>
+
+              <P class="indented-p-w">
+                Càng nhiều gia đình ứng dụng công nghệ số vào cuộc sống, càng giúp đẩy nhanh quá
+                trình hình thành các
+                Làng số
+              </P>
+
+              <!-- <h3 id="có-một-lộ-trình-chung-để-tham-khảo-hay-không">Có một lộ trình chung để tham khảo hay không?</h3> -->
+
+              <p class="indented-p">
+                Khi các thành viên trong nhà đang dần được trang bị những kỹ năng số cơ bản để phục vụ nhu cầu cuộc sống
+                hàng ngày: từ sử dụng mạng xã hội để kết nối mọi người, đọc báo cập nhật tin tức, gọi điện với các thành
+                viên thông qua ứng dụng như Facebook, Zalo,...; đến những việc nhỏ như thanh toán tiền học cho con,
+                thanh toán tiền điện, nước hàng tháng đang được thực hiện qua mạng; hay lớn hơn là thực hiện mua sắm
+                trực tuyến các vật dụng phục vụ nhu cầu của gia đình thay vì phải đi chợ. Đây chính là những viên gạch
+                đặt đầu tiên đặt nền móng để hình thành nên những gia đình số. Nhiều gia đình số ghép lại với nhau sẽ
+                hình thành nên những ngôi làng số.
+              </p>
+
+              <p>
+                Gia đình số cũng là gia đình có văn hóa số, các thành viên trong nhà đều được giáo dục các quy tắc hành
+                xử khi phát ngôn, bình luận trên mạng xã hội theo thuần phong mỹ tục, biết cách tiếp nhận và chia sẻ
+                những thông tin lành mạnh, có sức lan tỏa những điều tích cực, tốt đẹp tới mọi người và tránh xa những
+                thông tin xấu độc, tiêu cực không tốt cho xã hội.
+              </p>
+
+              <img src="./images/01.jpg" alt="">
+              <!-- <div class="image-1"></div> -->
+
+              <p>
+                Trong mỗi một gia đình, cũng cần có một “thủ lĩnh số” làm hạt nhân. Thủ lĩnh số là người hướng dẫn các
+                thành viên khác làm quen, sử dụng công nghệ cơ bản. Hoặc với những việc phức tạp hơn như sử dụng dịch vụ
+                công trực tuyến, “thủ lĩnh số” trực tiếp thao tác, thực hiện giúp thành viên trong gia đình như truyền
+                thống “trẻ cậy cha, già cậy con” của Việt Nam từ bao đời nay.
+              </p>
+
+
+            </div>
+            <hr class="uk-margin-medium">
+            <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+              <div class="uk-first-column">
+
+
+
+
+                <h5>Biết sử dụng nền tảng số</h5>
+                <div><a class="remove-underline hvr-back myLink" href="./index.html#text-5"><span
+                      class="qodef-m-icon arrow-animation">
+                      <svg fill="#000000" width="40.053" height="20.039" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 476.213 476.213" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <polygon
+                            points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107 ">
+                          </polygon>
+                        </g>
+                      </svg>
+                    </span> Quay lại</a>
+                </div>
+
+              </div>
+              <div>
+
+
+
+
+                <h5 style="text-align: end;">Hình thành văn hóa số</h5>
+                <div class="uk-text-right"><a class="remove-underline hvr-forward myLink" href="./index.html#text-7">Đọc
+                    tiếp
+                    <span class="qodef-m-icon arrow-animation">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                        viewBox="0 0 20.053 10.039">
+                        <path
+                          d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                          transform="translate(-2.875 -11.252)">
+                        </path>
+                      </svg>
+                    </span></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Hình thành văn hóa số -->
+          <div id="text-7" class="section">
+
+            <h1 class="uk-article-title">Hình thành văn hóa số</h1>
+
+            <!-- <p class="uk-text-lead uk-text-muted">Chuyển đổi số không phải là một khoản chi phí, mà chuyển đổi số là
+              giải pháp để
+              tối ưu hóa chi phí và tạo ra những giá trị mới. Chuyển đổi số không phải là mua sắm công nghệ số mới nhất,
+              hiện đại
+              nhất.</p> -->
+
+            <!-- <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
+
+
+
+
+              <div>
+
+                Đăng bởi <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span
+                    itemprop="name">Cục tin
+                    học hoá - Bộ Thông tin và Truyền thông</span></span><br>
+
+                <time datetime="2023-04-22T01:23:28+00:00" itemprop="datePublished">
+
+                  Apr 22, 2023
+                </time>
+              </div>
+
+            </div> -->
+
+            <div class="article-content link-primary">
+              <!-- <h4 class="no_toc" id="tóm-tắt">Tóm tắt</h4> -->
+              <!-- <ul id="markdown-toc">
+                <li><a href="#chuyển-đổi-số-giúp-tạo-ra-thêm-bao-nhiêu-doanh-thu"
+                    id="markdown-toc-chuyển-đổi-số-giúp-tạo-ra-thêm-bao-nhiêu-doanh-thu">Chuyển đổi số giúp tạo ra thêm
+                    bao nhiêu
+                    doanh thu?</a></li>
+                <li><a href="#chi-cho-chuyển-đổi-số-thế-nào-cho-phù-hợp"
+                    id="markdown-toc-chi-cho-chuyển-đổi-số-thế-nào-cho-phù-hợp">Chi cho chuyển đổi số thế nào cho phù
+                    hợp?</a>
+                </li>
+                <li><a href="#có-cách-nào-để-biết-chi-cho-chuyển-đổi-số-có-hiệu-quả-hay-không"
+                    id="markdown-toc-có-cách-nào-để-biết-chi-cho-chuyển-đổi-số-có-hiệu-quả-hay-không">Có cách nào để
+                    biết chi cho
+                    chuyển đổi số có hiệu quả hay không?</a></li>
+              </ul> -->
+
+              <!-- <p>Bởi vậy, câu hỏi đúng ở đây là “Chuyển đổi số tạo ra bao nhiêu tiền?”, thay vì “Chuyển đổi số tốn bao
+                nhiêu
+                tiền?”.</p> -->
+
+
+
+              <!-- ### Chuyển đổi số giúp tối ưu hóa bao nhiêu chi phí?
+          Engie là một công ty điện lực Pháp. Engie thực hiện chuyển đổi số vào công tác bảo trì, chuyển từ bảo trì theo cách truyền thống sang bảo trì tiên đoán. Theo cách truyền thống, bảo trì thực hiện định kỳ hoặc khi có hỏng hóc. Bảo trì tiên đoán là dự báo trước hỏng hóc, từ đó, tối ưu hóa kế hoạch bảo trì. Engie có 1,2 triệu km đường dây, gồm nhiều loại tài sản như trạm điện, đường dây, máy biến áp, công tơ, cảm biến v.v…, dữ liệu thu thập về theo thời gian thực hàng petabyte (1 triệu GB) mỗi ngày, kết hợp với cả các dữ  liệu liên quan khác, như thời tiết. Nền tảng phân tích dữ liệu lớn bảo trì tiên đoán sử dụng trí tuệ nhân tạo với hơn 1000 mô hình máy học, cho phép cung cấp 140.000 lượt đoán mỗi ngày, chu kỳ 10 phút /1 lần, giúp tiết kiệm chi phí hơn 100 triệu EUR /1 năm. Đặc biệt, trí tuệ nhân tạo cho phép tận dụng và mô hình hóa được tri thức tích lũy hơn 30 năm của một số chuyên gia lành nghề. Hiệu quả có thể giảm đến 30% chi phí bảo trì và 75% thời gian gián đoạn dịch vụ.  -->
+
+              <!-- <h3 id="chuyển-đổi-số-giúp-tạo-ra-thêm-bao-nhiêu-doanh-thu">Chuyển đổi số giúp tạo ra thêm bao nhiêu doanh
+                thu?</h3> -->
+              <p>
+                Dưới góc nhìn của nhiều người, mạng xã hội là môi trường “ảo”, là “vô danh” nên không phải chịu trách
+                nhiệm với các hành động của mình, vì thế họ phát ngôn tùy tiện, chia sẻ thông tin tùy tiện, mà không
+                nghĩ đến hậu quả tiêu cực cho chính cá nhân, cho gia đình và cho xã hội. Quan sát những dòng trạng thái,
+                những hình ảnh, những chia sẻ, những bình luận trực tuyến của mọi người khi tham gia các nền tảng mạng
+                xã hội như: Facebook, Instagram, Zalo, TikTok,… chúng ta có thể thấy được phần nào tính cách, văn hóa
+                ứng xử của một người trong thế giới thực.
+              </p>
+
+              <p class="indented-p-w">
+
+                Hình thành văn hóa ứng xử trên môi trường mạng để giữ gìn những nét đẹp văn hóa truyền thống của các
+                làng quê trong thời đại công nghệ số
+
+              </p>
+
+              <!-- <h3 id="chi-cho-chuyển-đổi-số-thế-nào-cho-phù-hợp">Chi cho chuyển đổi số thế nào cho phù hợp?</h3> -->
+              <p class="indented-p">
+                Trước đây trong môi trường thực, một người nói cũng chỉ chục người nghe, bây giờ trong môi trường số,
+                một người nói có trăm, cả ngàn, thậm chí cả triệu người nghe/ thấy, cho nên, kỹ năng ứng xử cũng phải
+                khác, trách nhiệm cũng phải khác. Văn hóa làng quê trải qua bao nhiêu biến đổi của lịch sử dân tộc, vẫn
+                luôn giữ lại cho mình những nét đặc sắc riêng. Vì vậy, khi tham gia không gian mạng, người dân trong
+                làng cũng cần xác định xây dựng văn hóa mới, trên một không gian sống mới, trên tinh thần giữ gìn và
+                phát huy những giá trị văn hóa tốt đẹp, góp phần làm giàu thêm bản sắc văn hóa dân tộc đã có từ ngàn đời
+                nay.
+              </p>
+
+              <p>
+                Công nghệ số ngày càng trở thành một phần không thể thiếu trong cuộc sống hàng ngày của người dân ở
+                những làng quê truyền thống, làm cho văn hóa của làng không bó hẹp trong không gian của làng nữa. Người
+                dân trong làng cần hình thành cho mình văn hóa số trong giao tiếp, trong ứng xử trên môi trường mạng để
+                lan tỏa những giá trị tốt đẹp, phù hợp với văn hóa gia đình, văn hóa dòng tộc, văn hóa quê hương. Coi
+                trọng văn hóa trên môi trường mạng cũng quan trọng như văn hóa trong đời thực, để ứng xử một cách văn
+                minh với tất cả mọi người.
+              </p>
+
+
+            </div>
+            <hr class="uk-margin-medium">
+            <div class="uk-child-width-expand@s uk-grid-large uk-pagi uk-grid" data-uk-grid="">
+              <div class="uk-first-column">
+
+
+
+
+                <h5>Xây dựng gia đình số</h5>
+                <div><a class="remove-underline hvr-back myLink" href="./index.html#text-6"><span
+                      class="qodef-m-icon arrow-animation">
+                      <svg fill="#000000" width="40.053" height="20.039" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 476.213 476.213" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <polygon
+                            points="476.213,223.107 57.427,223.107 151.82,128.713 130.607,107.5 0,238.106 130.607,368.714 151.82,347.5 57.427,253.107 476.213,253.107 ">
+                          </polygon>
+                        </g>
+                      </svg>
+                    </span> Quay lại</a>
+                </div>
+
+              </div>
+              <div>
+
+
+
+
+                <h5 style="text-align: end;">Tổ công nghệ số cộng đồng</h5>
+                <div class="uk-text-right"><a class="remove-underline hvr-forward myLink"
+                    href="./index.html#text-26">Đọc
+                    tiếp
+                    <span class="qodef-m-icon arrow-animation">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20.053" height="10.039"
+                        viewBox="0 0 20.053 10.039">
+                        <path
+                          d="M17.474,11.444a.683.683,0,0,0-.005.962l3.179,3.184H3.549a.68.68,0,0,0,0,1.359H20.643l-3.179,3.184a.688.688,0,0,0,.005.962.677.677,0,0,0,.957-.005l4.308-4.34h0a.763.763,0,0,0,.141-.214.649.649,0,0,0,.052-.261.681.681,0,0,0-.193-.476l-4.308-4.34A.666.666,0,0,0,17.474,11.444Z"
+                          transform="translate(-2.875 -11.252)">
+                        </path>
+                      </svg>
+                    </span></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- tham gia tổ công nghệ số cộng đồng -->
+          <div id="text-26" class="section">
+
+            <h1 class="uk-article-title">Tổ công nghệ số cộng đồng</h1>
+
+
+            <div class="article-content link-primary">
+              <p>
+                Tổ công nghệ số cộng đồng sinh ra để làm cầu nối, mang công nghệ số đến gần hơn với người dân trong
+                làng, lực lượng này được sinh ra từ làng, và là lực lượng mang tính huy động sức mạnh toàn dân, hiểu
+                được nhu cầu hàng ngày của dân làng nên sẽ đẩy nhanh quá trình phổ cập kiến thức, kỹ năng số đến dân

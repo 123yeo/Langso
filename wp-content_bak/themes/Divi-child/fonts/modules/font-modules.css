@@ -1,0 +1,8 @@
+@font-face{
+    font-family:ETmodules;
+    font-display:block;
+    src:url(all/modules.eot);
+    src:url(all/modules.eot?#iefix) format("embedded-opentype"),url(all/modules.ttf) format("truetype"),url(all/modules.woff) format("woff"),url(all/modules.svg#ETmodules) format("svg");
+    font-weight:400;
+    font-style:normal
+}

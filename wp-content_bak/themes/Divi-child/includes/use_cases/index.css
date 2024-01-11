@@ -1,0 +1,329 @@
+article:has(.loader) {
+  pointer-events: none;
+}
+
+span.select2-selection.select2-selection--single::after {
+  font-family: "ETmodules";
+  content: "3";
+  position: absolute;
+  right: 30px;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.select2-container--default .select2-selection--single {
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 18px !important;
+  border: 2px solid #C4D600;
+  padding: 6px 111px 6px 25px;
+  width: 100%;
+  height: 90%;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  display: none !important;
+}
+
+select.buttons_mobile * {
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.select2-dropdown {
+  background-color: transparent;
+}
+
+.select2-results {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.select2-results__options {
+  border: 1px solid #e7e7e7;
+}
+
+.select2-results__option--selectable {
+  padding: 10px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  margin: 0px 0px;
+  padding: 14px;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: transparent;
+  color: #364c4f;
+  font-weight: 700;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  display: none;
+}
+
+.select2-dropdown {
+  border: none;
+}
+
+.row-flex {
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+}
+.row-flex:has(> .loader) {
+  justify-content: center;
+}
+.row-flex.loading {
+  opacity: 0.4;
+}
+
+.col {
+  height: 216px;
+  width: 377px;
+}
+.col__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 29px;
+  color: #fff;
+  height: 216px;
+  transition: all 0.3s ease-in-out;
+}
+.col__content p {
+  font-size: 13px;
+}
+.col__content h2, .col__content h3 {
+  font-size: 20px;
+  color: #fff;
+}
+.col div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col__content:hover {
+  background-color: rgba(199, 199, 199, 0.4);
+}
+
+#use_cases-title-section .page-title-row {
+  padding-bottom: 0px !important;
+}
+#use_cases-title-section #category_description {
+  margin-top: 2.75%;
+  padding: 0px 50px;
+}
+
+#use_cases-section {
+  padding-top: 0px !important;
+}
+#use_cases-section h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  padding-bottom: 25px;
+}
+#use_cases-section .slick-dots {
+  padding: 0px;
+}
+
+#more_use-cases, .use_case_for {
+  display: inline-block;
+}
+#more_use-cases::first-letter, .use_case_for::first-letter {
+  text-transform: uppercase;
+}
+
+#other_manufacturers {
+  padding-top: 0px !important;
+}
+#other_manufacturers .et_pb_image {
+  text-align: center;
+  width: 100% !important;
+  margin-bottom: 0px !important;
+}
+#other_manufacturers .et_pb_image .et_pb_image_wrap {
+  max-width: 182px;
+  margin: 0px 5px;
+}
+#other_manufacturers .slick-slide:not(.slick-center) {
+  filter: grayscale(1);
+}
+#other_manufacturers .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#other_manufacturers div {
+  margin: 0 auto;
+}
+
+.other_manufacturer_desc {
+  padding: 0px !important;
+}
+.other_manufacturer_desc .et_pb_fullwidth_header {
+  padding: 30px 10px;
+  margin: 0 140px;
+}
+.other_manufacturer_desc .et_pb_fullwidth_header .et_pb_fullwidth_header_container {
+  width: 100%;
+}
+.other_manufacturer_desc .et_pb_fullwidth_header_subhead {
+  font-size: 25px;
+  line-height: 34px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.other_manufacturer_desc h1 {
+  font-size: 25px;
+  line-height: 34px;
+  margin-bottom: 24px;
+}
+.other_manufacturer_desc p {
+  font-size: 13px;
+  line-height: 17px;
+}
+.other_manufacturer_desc a.btn {
+  font-size: 16px;
+  line-height: 21px;
+}
+.other_manufacturer_desc p {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  list-style-type: none !important;
+  margin: auto;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+.slick-dots button {
+  display: block;
+  width: 11px;
+  height: 11px;
+  padding: 0;
+  border: none;
+  border-radius: 18px;
+  background-color: #C4D600;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+  width: 45px;
+}
+
+.loader {
+  min-width: 100%;
+  position: absolute;
+  margin-left: auto;
+  top: 112px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background: url(https://openremote.dev-blackbird.com/wp-content/uploads/2023/01/openremote_loader.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 980px) {
+  #use_cases-title-section .et_pb_column .et_pb_module {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 964px) {
+  #use_cases-title-section .page-title-row.et_pb_row {
+    padding-top: 35px;
+  }
+  #use_cases-title-section.et_pb_section {
+    padding: 0px !important;
+  }
+  #use_cases-title-section p {
+    /* font-size: 16px; */
+        display: flex;
+    text-align: justify;
+    padding: 0px 3px;
+
+  }
+  #use_cases-title-section .et_pb_row {
+    width: 100%;
+  }
+  #use_cases-title-section .buttons.mobile {
+    margin-top: 43px;
+  }
+  #use_cases-title-section .btn_more a {
+    display: inline-block;
+  }
+  #use_cases-title-section #category_description {
+    padding: 0px 10px !important;
+  }
+  #use_cases-section {
+    text-align: center;
+  }
+  #use_cases-section h2 {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  #use_cases-section .slick-slide {
+    margin: 0px 10px;
+  }
+  .row-flex {
+    margin: 0px -20px;
+    justify-content: center;
+  }
+  .col {
+    margin-bottom: 22px;
+  }
+  .col__content {
+    text-align: start;
+  }
+  .col__content h2 {
+    padding-bottom: 0px !important;
+    text-align: left !important;
+  }
+  .other_manufacturer_desc .et_pb_fullwidth_header {
+    margin: auto;
+  }
+  .other_manufacturer_desc .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+    margin: 0px auto !important;
+    width: 100%;
+  }
+  .other_manufacturer_desc .et_pb_fullwidth_header_subhead {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .other_manufacturer_desc .et_pb_header_content_wrapper {
+    font-size: 13px;
+  }
+  .other_manufacturer_desc p {
+    line-height: 22px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
